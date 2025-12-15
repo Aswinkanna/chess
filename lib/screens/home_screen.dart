@@ -88,7 +88,7 @@ class HomeScreen extends StatelessWidget {
                   _HomeCard(
                     title: 'Host Bet Match',
                     subtitle: 'Create a room, set a wager',
-                    icon: Icons.swords,
+                    icon: Icons.sports_martial_arts,
                     onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const BetMatchScreen(host: true))),
                   ),
                   _HomeCard(

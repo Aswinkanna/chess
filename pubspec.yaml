@@ -13,14 +13,14 @@ dependencies:
   # Chess logic
   chess: ^0.8.1
 
-  # Firebase (online multiplayer)
-  firebase_core: ^2.12.0
-  cloud_firestore: ^4.8.0
-  firebase_auth: ^4.8.0
+  # Firebase – use latest major compatible with your Flutter 3.38
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
 
   # Audio
   audioplayers: ^6.5.1
-  
+
   # For animations & gestures
   flutter_svg: ^2.1.0
   provider: ^6.0.5
